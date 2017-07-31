@@ -1,0 +1,78 @@
+
+div {
+  box-sizing: border-box;
+}
+
+#container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  perspective: 1px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#group1 {
+  height: 1000px;
+  position: relative;
+  transform-style: preserve-3d;
+  font-size: 20px;
+}
+
+#output {
+  color: white;
+}
+
+.background1 {
+  /*effect the animation effect */
+  transform: translateZ(-1px);
+  /* height: 500px; */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background: #FFFFFF;
+  /* padding-top: 100px; */
+}
+
+.foreground1 {
+  position: absolute;
+   top: 120px;
+  height: 500px;
+  width: 100%;
+  /* background: #23819C; */
+  background-image: url("https://pixabay.com/static/uploads/photo/2015/05/06/21/41/space-755811_960_720.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+  opacity: 0.8;
+}
+
+#group2 {
+  height: 1000px;
+  position: relative;
+  transform-style: preserve-3d;
+  font-size: 20px;
+}
+
+.background2 {
+  /*effect the animation effect */
+  transform: translateZ(-1px);
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background: #FF8A8A;
+  padding-top: 100px;
+}
+
+.foreground2 {
+  position: absolute;
+  top: 500px;
+  height: 500px;
+  width: 100%;
+  background: #23819C;
+  opacity: 0.8;
+}
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Astro Weight Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.0/css/bulma.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Astro Weight Calculator
+      </h1>
+      <p class="subtitle">
+        By: <strong>Dangermin Field</strong>
+      </p>
+    </div >
+  </section>
+
+  <div id='container'>
+    <div id="group1">
+      <div class="foreground1">
+        <div class="field">
+          <label class="label">Enter Weight</label>
+          <div class="control">
+            <input id="user-weight" type="text" placeholder="Weight (lbs)">
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="select">
+            <select id="planets">
+              <!-- <select multiple>// maybe try to select multiple planets to give multi answers -->
+                <option value="" disabled selected>Planet Selector</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="control">
+          <button class="button is-primary" id="calculate-button">Calculate</button>
+        </div>
+
+      <br/>
+        <center>
+          <p id="output"><strong>Output Here<strong/></p>
+        </center>
+      </div>
+    </div>
+
+    <div id="group2">
+      <div class="background2">
+        <center>I'm an element far away.</center>
+      </div>
+      <div class="foreground2">
+        <center>I'm an element close by.</center>
+      </div>
+    </div>
+  </div>
+
+  	  <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
